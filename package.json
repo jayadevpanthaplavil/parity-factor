@@ -1,0 +1,47 @@
+{
+  "name": "parity-factor",
+  "version": "1.0.0",
+  "description": "A Node.js package to fetch and calculate Purchasing Power Parity (PPP) conversion factors (GDP, LCU per international dollar) for any country using World Bank, Eurostat, and OECD data.",
+  "main": "index.js",
+  "scripts": {
+    "update": "node scripts/updateParity.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "bin": {
+    "parityfactor": "./bin/parityfactor.js"
+  },
+  "author": "Jayadev Panthaplavil",
+  "keywords": [
+    "ppp",
+    "purchasing power parity",
+    "parity factor",
+    "conversion factor",
+    "currency conversion",
+    "gdp",
+    "economics",
+    "world bank",
+    "oecd",
+    "eurostat",
+    "exchange rates",
+    "international dollar",
+    "country data",
+    "economic indicators",
+    "ppp calculator",
+    "ppp converter",
+    "ppp rate"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^4.1.0",
+    "dotenv": "^17.2.1",
+    "node-fetch": "^3.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jayadevpanthaplavil/parity-factor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jayadevpanthaplavil/parity-factor/issues"
+  }
+}
