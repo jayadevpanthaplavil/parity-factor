@@ -2,7 +2,7 @@
 ## Purchasing Power Parity (PPP) Conversion Factor
 
 [![View on npm](https://img.shields.io/badge/npm-parity--factor-red?logo=npm)](https://www.npmjs.com/package/parity-factor)
-[![npm version](https://img.shields.io/npm/v/xparity-factor)](https://www.npmjs.com/package/parity-factor)
+[![npm version](https://img.shields.io/npm/v/parity-factor)](https://www.npmjs.com/package/parity-factor)
 [![npm downloads](https://img.shields.io/npm/dm/parity-factor)](https://www.npmjs.com/package/parity-factor)
 
 A lightweight Node.js package and CLI tool to fetch real-time **Purchasing Power Parity (PPP)** conversion factors (GDP-based, LCU per international $).  
